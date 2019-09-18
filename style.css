@@ -1,0 +1,269 @@
+html, body{
+    margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.body{
+	background-color: #b8d3e6;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.btn-outline-primary{
+	border: 1px solid rgb(197, 195, 195) !important;
+}
+
+.btn-outline-primary:hover{
+	border:1px solid #007bff !important;
+	background-color: transparent;
+	color: #007bff !important;
+}
+.body_no_show{
+    background-image: url("images/background--homepage@2x-vfla3aC_v.jpg");
+    width: 100%;
+    height: 470px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media(max-width: 320px){
+	div.body_no_show{
+		display: none;
+	}
+}
+
+.navbar-color {
+    background-color: #b8d3e6 !important;
+}
+
+hr{
+	margin:0 !important;
+	height: 9em !important;
+	border: none !important;
+}
+
+.promo-bar{
+	
+	background: #f6f9fc;
+    border-top: 1px solid #72b6ec;
+    border-bottom: 1px solid #72b6ec;
+}
+
+.card-text{
+    font-size: 45px;
+}
+
+.lead{
+    font-size: 40px;
+}
+
+.load{
+    font-size: 20px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.load1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.row{
+    padding: 40px;
+}
+
+.bg-ash{
+    background-color: #f5f3f4 !important;
+}
+
+.bg-lb{
+	background-color: #99c6f3;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.card  .btn-outline-primary{
+	border: 1px solid #0071e0 !important;
+	color: #007bff !important;
+/*	margin: 0 auto!important;*/
+	
+}
+
+.card  .btn-outline-primary:hover{
+	background:  #eaf2f8 !important;
+	
+}
+
+.drop-list{
+	border-right: 1px solid #B3B6B7;
+}
+
+.drop-list li{
+	display: flex;
+}
+
+.drop_list li{
+	display: flex;
+}
+
+.fa-dodgerblue{
+	
+	color:#007bff!important;
+}
+
+.mb-1{
+    width: 15px;
+    height: 15px;
+}
+
+#bg-computer{
+	background-image: url("images/computer-monitor-vflHvMurq.png");
+	height: 100%;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.benefit-carousel{
+	display: flex;
+	padding: 40px 0 40px;
+	height: 100vh;
+}
+
+@media(max-width: 320px){
+	.benefit-carousel{
+		widows: auto;
+		height: auto;
+	}
+	#bg-computer{
+		width: auto;
+		height: auto;
+	}
+	.bg-ash{
+		width: auto;
+		height: auto;
+	}
+}
+
+.customers-headline {
+	padding: 0;
+	margin-top: 85px;
+	font-size: 31px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.customers-link {
+    margin-bottom: 60px;
+    font-size: 16px;
+	text-decoration: none;
+	color: #0061ff;
+}
+
+.cust{
+	text-align: center;
+}
+
+.customer-content{
+	background-image: url(images/customer.png);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 600px){
+	.customer-content{
+		width: auto;
+		display: grid;
+	}
+}
+
+.faq-module-headline {
+    padding: 0;
+    margin-top: 80px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 31px;
+	line-height: 1.3;
+}
+
+.accordion-list-item {
+    padding: 30px;
+    background: #f4faff;
+    border-radius: 6px;
+	box-sizing: inherit;
+	font-size: 14px;
+}
+
+.accordion-list-heading{
+	font-size: 20px;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.accordion-list-item :hover{
+	background-color: #72b6ec;
+	height: 50px;
+}
+
+.business{
+	background: #f5f3f4;
+	padding-top: 30px;
+	justify-content: center;
+	text-align: center;
+	height: 350px;
+}
+
+.try-business{
+    text-align: center;
+	color: #47525d;
+	margin-top: 70px;
+	font-size: 31px;
+	line-height: 1.3;
+}
+
+.btn-primary{
+	align-content: center;
+	border-radius: 6px;
+	font-weight: normal;
+}
+
+.footer-group-list {
+    padding: 100px 0;
+    width: 100%;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	display: flex;
+	height: auto;
+	color: #47525d;
+	max-width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #e6e8eb;
+}
+
+.footer-link-list1{
+	font-size: 22px;
+}
+
+.footer-link {
+    margin-left: 0;
+    padding-bottom: 0;
+    flex: 1;
+	max-width: none;
+	text-decoration: none;
+	font-size: 17px;
+	color: #47525d;
+}
+
+.social-icon-list{
+	display: flex;
+}
